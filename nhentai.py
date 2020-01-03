@@ -4,17 +4,6 @@ import requests
 from urllib.request import urlopen, Request
 import urllib.request
 import os
-try:
-	f = open(".nhentai_settings.json","r")
-	cont = f.read()
-except FileNotFoundError:
-	print("File Not Found!")	
-
-try:
-	settings = json.loads(cont)
-except json.decoder.JSONDecodeError:
-	print("JSON Syntax Error, if you have no idea to fix it , just delete it (.nhentai_settings.json) and we will re-initalizing that file again.")
-	quit()
 
 os.system("cls" if os.name == 'nt' else 'clear')
 #printing main app
