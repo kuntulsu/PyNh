@@ -2,7 +2,7 @@
 
 Python Module for Downloading Nhentai Doujin
 
-"""
+
 IF THIS APPLICATION ALWAYS RETURNING AN ERROR CONTINOUSLY KINDLY CHECK :
 http://nhproxy.glitch.me and
 https://nhent.ai
@@ -11,7 +11,7 @@ VPN/PROXIES FEATURE MAY BE INTRODUCED IN THE FUTURE UPDATE AND WE'LL USE https:/
 THANK YOU
 
 example of use :
-====================
+=====================
 
 import nhentai
 code = input("Insert Code Here:")
@@ -23,3 +23,9 @@ index.download(response)
 nh_media_id = response['media_id'] #getting media id
 nh_id = response['id'] #getting book id
 nh_title_eng = response['title']['english'] #getting name of doujin on english version
+
+```ruby
+  def foo
+    puts 'bar'
+  end
+```
