@@ -27,5 +27,5 @@ nh_title_eng = response['title']['english'] #getting name of doujin on english v
 if you want to download it use this function
 
 ```python
-index.download(response)
+nhentai.download(response)
 ```
