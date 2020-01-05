@@ -9,8 +9,7 @@ Python Module for Downloading Nhentai Doujin
 >VPN/Proxies feature may be introduced in the future update and we will use https://nhentai.net instead
 
 
-example of use :
-=====================
+##example of use :
 ```python
 import nhentai
 code = input("Insert Code Here:")
