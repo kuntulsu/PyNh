@@ -12,20 +12,18 @@ THANK YOU
 
 example of use :
 =====================
-
+```python
 import nhentai
 code = input("Insert Code Here:")
 response = index.get(code)
 index.download(response)
+```
 
 #once you didnt get any error after this , youre able to get data like this:
 
+```python
 nh_media_id = response['media_id'] #getting media id
 nh_id = response['id'] #getting book id
 nh_title_eng = response['title']['english'] #getting name of doujin on english version
-
-```ruby
-  def foo
-    puts 'bar'
-  end
 ```
+
