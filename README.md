@@ -2,11 +2,11 @@
 
 Python Module for Downloading Nhentai Doujin
 
-!If this application always returning an error continously kindly check:
-!http://nhproxy.glitch.me and
-!https://nhent.ai
-!as this far, we does not use any VPN/Proxies embedded in this app so we need those website running
-!VPN/Proxies feature may be introduced in the future update and we will use https://nhentai.net instead
+>If this application always returning an error continously kindly check:
+>http://nhproxy.glitch.me and
+>https://nhent.ai
+>as this far, we does not use any VPN/Proxies embedded in this app so we need those website running
+>VPN/Proxies feature may be introduced in the future update and we will use https://nhentai.net instead
 
 
 example of use :
