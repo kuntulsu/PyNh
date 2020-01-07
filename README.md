@@ -11,6 +11,9 @@ Python Module for Downloading Nhentai Doujin
 
 ## example of use :
 ```python
+#!/usr/bin/python3
+#python3 and linux is required to run this program
+
 import nhentai
 code = input("Insert Code Here:")
 response = index.get(code)
