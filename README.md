@@ -17,6 +17,9 @@ Python Module for Downloading Nhentai Doujin
 import nhentai
 code = input("Insert Code Here:")
 response = index.get(code)
+
+#if you want to download it use this function
+nhentai.download(response)
 ```
 
 "response" will return data like this:
@@ -26,8 +29,4 @@ nh_media_id = response['media_id'] #getting media id
 nh_id = response['id'] #getting book id
 nh_title_eng = response['title']['english'] #getting name of doujin on english version
 ```
-if you want to download it use this function
 
-```python
-nhentai.download(response)
-```
