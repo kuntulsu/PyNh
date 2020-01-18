@@ -25,8 +25,8 @@ nhentai.download(response)
 "response" will return data like this:
 
 ```python
-nh_media_id = response['media_id'] #getting media id
-nh_id = response['id'] #getting book id
-nh_title_eng = response['title']['english'] #getting name of doujin on english version
+response['media_id'] #getting media id
+response['id'] #getting book id
+response['title']['english'] #getting name of doujin on english version
 ```
 
