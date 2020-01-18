@@ -31,6 +31,7 @@ class Error(Exception):
 class Error404(Error):
 	pass
 
+
 api_link = "http://nhproxy.glitch.me/api/gallery/" 
 page_link = "https://cdn.nhent.ai/galleries/"
 
