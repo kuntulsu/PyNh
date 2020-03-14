@@ -15,3 +15,6 @@ use the nhentai doujin codes it should be numbers
 ```bash
 nhdownloader [code]
 ```
+## Any bugs or error?
+
+#### Please refer to : https://github.com/kuntulsu/nhdownloader/issues
