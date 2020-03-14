@@ -15,12 +15,3 @@ use the nhentai doujin codes it should be numbers
 ```bash
 nhdownloader [code]
 ```
-
-
-## Using the Source Code
-I Recommend you to use virtual environtments
-```
-git clone https://github.com/kuntulsu/nhdownloader.git
-cd nhdownloader
-pip install -r requirements.txt
-```
