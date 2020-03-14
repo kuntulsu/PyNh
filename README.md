@@ -1,6 +1,6 @@
 # nhdownloader
 
-Python App Based for downloading nhentai doujins 
+nhdownloader - CLI Toolkit to Download Doujin From nhentai.net . no need vpn at system level 
 
 ## Getting Started
 For Blocked Country There is no need to install vpn service at system level 
