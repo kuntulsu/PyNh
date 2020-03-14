@@ -1,32 +1,26 @@
-# pyhentai
+# nhdownloader
 
-Python Module for Downloading Nhentai Doujin
+Python App Based for downloading nhentai doujins 
 
->If this application always returning an error continously kindly check:
->http://nhproxy.glitch.me and
->https://nhent.ai
->as this far, we does not use any VPN/Proxies embedded in this app, so we need those website running,
->VPN/Proxies feature may be introduced in the future update and we will use https://nhentai.net instead
+##Getting Started
+For Blocked Country There is no need to install vpn service at system level 
+
+##Installing
+Please refer to : https://github.com/kuntulsu/nhdownloader/releases
+and there is a one line solution to install nhdownloader for each release
 
 
 ## example of use :
-```python
-#!/usr/bin/python3
-#python3 and linux is required to run this program
-
-import nhentai
-code = input("Insert Code Here:")
-response = index.get(code)
-
-#if you want to download it use this function
-nhentai.download(response)
+use the nhentai doujin codes it should be numbers
+```bash
+nhdownloader [code]
 ```
 
-"response" will return data like this:
 
-```python
-response['media_id'] #getting media id
-response['id'] #getting book id
-response['title']['english'] #getting name of doujin on english version
+##Using the Source Code
+I Recommend you to use virtual environtments
 ```
-
+git clone https://github.com/kuntulsu/nhdownloader.git
+cd nhdownloader
+pip install -r requirements.txt
+```
